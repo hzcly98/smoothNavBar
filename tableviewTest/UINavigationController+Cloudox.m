@@ -31,7 +31,7 @@
     }
     
     // 对导航栏下面那条线做处理
-    self.navigationBar.clipsToBounds = alpha == 0.0;
+    self.navigationBar.clipsToBounds = alpha == 0.0; // alpha == 0.0
 }
 
 + (void)initialize {
